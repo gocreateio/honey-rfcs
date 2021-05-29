@@ -12,8 +12,7 @@ future state of the libraries and to discover projects for contribution.
 <!--BEGIN_TABLE-->
 \#|Title|Owner|Status
 ---|-----|-----|------
-[1](https://github.com/gocreateio/honey-rfcs/issues/1)|[CDK Watch](https://github.com/gocreateio/honey-rfcs/issues/1)||💡 proposed
-[164](https://github.com/gocreateio/honey-rfcs/issues/164)|[Construct Library Segments](https://github.com/gocreateio/honey-rfcs/pull/169)|[@nija-at](https://github.com/nija-at)|👎 rejected
+[2](https://github.com/gocreateio/honey-rfcs/issues/2)|[Reminders](https://github.com/gocreateio/honey-rfcs/issues/2)|[@koderizer](https://github.com/koderizer)|❓unknown
 <!--END_TABLE-->
 
 ## What is an RFC?
