@@ -41,8 +41,8 @@ async function render() {
   }
 
   const request = octo.issues.listForRepo.endpoint.merge({
-    repo: 'aws-cdk-rfcs',
-    owner: 'aws',
+    repo: 'honey-rfcs',
+    owner: 'gocreateio',
     state: 'all',
   });
 
