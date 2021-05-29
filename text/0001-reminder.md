@@ -1,6 +1,6 @@
 ---
 
-rfc pr: [#1](https://github.com/gocreateio/honey-rfcs/pull/1)  
+rfc pr: [#1](https://github.com/gocreateio/honey-rfcs/pull/1)
 tracking issue: https://github.com/gocreateio/honey-rfcs/issues/2
 ---
 
@@ -20,63 +20,56 @@ E.g.,
 User: Set a reminder for 7 am tomorrow: Meditation.
 User: For every morning also.
 
-User: Reschedule my 7 am reminder to 10 am.
+User: Reschedule my 7 am's reminder to 10 am.
 
 User: Snooze reminder.
 ```
 
 ### PRESS RELEASE
 
-Today, GoCreate community, announced the Honey, AI-Powered Virtual Assistant for busy professionals,  
-business owners or anyone who needs personal virtual assistant.
+Today, the GoCreate community announced the Honey, AI-Powered Virtual Assistant for busy professionals,
+business owners or anyone who needs a personal virtual assistant.
 
-Just say 'honey' and ask her anything. She will listen, learn, and do her best to help with information or knowledge you need any time.
+Just say 'honey' and ask her anything. She will listen, learn, and do her best to help with information or knowledge you need at any time.
 
 Now, she knows how to conduct a secretary job for you.
 Just ask her, and she will set a reminder, reschedule, cancel, or snooze it.
 You will never miss anything, because your personal secretary is there for you, 24/7.
 
 - "The Honey, she is growing, learning, and getting intelligent day by day.
-Now, she knows how to manage reminders!
-  I am offloading my personal and professional reminders to her with conversation, like I am talking to a real close person!".
+  Now, she knows how to manage reminders!
+  I am offloading my personal and professional reminders to her with a conversation like I am talking to a real close person!".
   Steffen, GoCreate community contributor.
 
 You can easily meet with her over your Telegram app and start to use her services now.
 
-- "She is like my sister, I don't know what I would do without her.
-  She is not like another app, she has a human connection, humor, emotion and understanding. Looking forward to seeing her new skills.".
-  Naomi Morioka, customer.
+- "She is like my sister; I don't know what I would do without her.
+  She is not like another app; she has a human connection, humor, emotion, and understanding. Looking forward to seeing her new skills.".
+  Naomi Morioka, the customer.
 
-To meet the Honey just follow the following [link](https://t.me/gocreatehoneybot).
+To meet the Honey, follow the following [link](https://t.me/gocreatehoneybot).
 
 ## FAQ
 
 ### What are we launching today?
 
-The Honey is community driven AI-Powered virtual assistant for busy professionals, business owners or anyone who needs personal virtual assistant.
-At this moment Honey has only one secretary kill - manage reminders for you.
+The Honey is a community-driven AI-Powered virtual assistant for busy professionals, business owners, or anyone who needs a personal virtual assistant.
+At this moment, Honey has only one secretary kill - manage reminders for you.
 
 ### Why should I use this feature?
 
-If you want to improve your productivity in personal and professional life then offload all reminders to her.
+If you want to improve productivity in your personal and professional life, then offload all reminders to her.
 She will never miss or forgets anything from your reminders.
 
 ## Internal FAQ
 
-> The goal of this section is to help decide if this RFC should be implemented.
-> It should include answers to questions that the team is likely ask. Contrary
-> to the rest of the RFC, answers should be written "from the present" and
-> likely discuss design approach, implementation plans, alternative considered
-> and other considerations that will help decide if this RFC should be
-> implemented.
-
 ### Why are we doing this?
 
-It is our first MVP, with simple Reminder Agent which allows us to validate our hypotheses related to AI-Powered Virtual Assistant.
+Our first MVP, with a simple Reminder Agent, allows us to validate our hypotheses related to AI-Powered Virtual Assistants.
 
 ### Why should we _not_ do this?
 
-The downsides are infrastructure cost. At this moment, we cannot predict the infrastructure load and cost at the launch.
+The downside is infrastructure cost. At this moment, we cannot predict the infrastructure load and cost at the launch.
 
 ### What changes are required to enable this change?
 
@@ -107,11 +100,11 @@ The downsides are infrastructure cost. At this moment, we cannot predict the inf
 > Briefly describe alternative approaches that you considered. If there are
 > hairy details, include them in an appendix.
 
-### What is the high level implementation plan?
+### What is the high-level implementation plan?
 
 > Describe your plan on how to deliver this feature from prototyping to GA.
 > Especially think about how to "bake" it in the open and get constant feedback
-> from users before you stabilize the APIs.
+> from users before stabilizing the APIs.
 >
 > If you have a project board with your implementation plan, this is a good
 > place to link to it.
@@ -124,6 +117,6 @@ The downsides are infrastructure cost. At this moment, we cannot predict the inf
 
 ## Appendix
 
-Feel free to add any number of appendices as you see fit. Appendices are expected to allow readers to dive deeper to
-certain sections if they like. For example, you can include an appendix which describes the detailed design of an
+Feel free to add any number of appendices as you see fit. Appendices are expected to allow readers to dive deeper into
+certain sections if they like. For example, you can include an appendix that describes the detailed design of an
 algorithm and reference it from the FAQ.
