@@ -1,7 +1,7 @@
 ---
 
 rfc pr: [#1](https://github.com/gocreateio/honey-rfcs/pull/1)  
-tracking issue: https://github.com/gocreateio/honey-rfcs/issues/1
+tracking issue: https://github.com/gocreateio/honey-rfcs/issues/2
 ---
 
 # Reminder
