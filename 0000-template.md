@@ -88,7 +88,7 @@ tracking issue: https://github.com/gocreateio/honey-rfcs/issues/yyy
 
 > If the answer is no. Otherwise:
 >
-> Describe what ways did you consider to deliver this without breaking users?
+> Describe what ways did you consider delivering this without breaking users?
 >
 > Make sure to include a `BREAKING CHANGE` clause under the CHANGELOG section with a description of the breaking
 > changes and the migration path.
