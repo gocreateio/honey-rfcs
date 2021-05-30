@@ -4,7 +4,7 @@ rfc pr: [#1](https://github.com/gocreateio/honey-rfcs/pull/2)
 tracking issue: https://github.com/gocreateio/honey-rfcs/issues/2
 ---
 
-# Reminder
+# Reminders
 
 As an entrepreneur, I want `honey` to manage my routine tasks,
 so I can focus on unblocking creativity and delivering business value.
