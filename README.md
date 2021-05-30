@@ -12,7 +12,7 @@ future state of the libraries and to discover projects for contribution.
 <!--BEGIN_TABLE-->
 \#|Title|Owner|Status
 ---|-----|-----|------
-[2](https://github.com/gocreateio/honey-rfcs/issues/2)|[Reminders](https://github.com/gocreateio/honey-rfcs/issues/2)|[@koderizer](https://github.com/koderizer)|❓unknown
+[2](https://github.com/gocreateio/honey-rfcs/issues/2)|[Reminders](https://github.com/gocreateio/honey-rfcs/blob/master/text/0002-reminders.md)||❓unknown
 <!--END_TABLE-->
 
 ## What is an RFC?
