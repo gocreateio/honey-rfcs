@@ -1,6 +1,6 @@
 ---
 
-rfc pr: [#1](https://github.com/gocreateio/honey-rfcs/pull/1)
+rfc pr: [#1](https://github.com/gocreateio/honey-rfcs/pull/2)
 tracking issue: https://github.com/gocreateio/honey-rfcs/issues/2
 ---
 
