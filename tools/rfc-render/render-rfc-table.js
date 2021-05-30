@@ -41,8 +41,8 @@ async function render() {
   }
 
   const request = octo.issues.listForRepo.endpoint.merge({
-    repo: 'aws-cdk-rfcs',
-    owner: 'aws',
+    repo: 'honey-rfcs',
+    owner: 'gocreateio',
     state: 'all',
   });
 
@@ -71,7 +71,7 @@ async function render() {
 
     let link;
 
-    // we we already have a doc, then the link should go to it
+    // we already have a doc, then the link should go to it
     if (doc) {
       link = `https://github.com/gocreateio/honey-rfcs/blob/master/text/${doc}`;
     } else if (pr_number) {
