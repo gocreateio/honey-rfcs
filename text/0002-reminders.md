@@ -6,7 +6,8 @@ tracking issue: https://github.com/gocreateio/honey-rfcs/issues/2
 
 # Reminder
 
-As a user, I want to request `honey` to manage my reminders for me.
+As an entrepreneur, I want `honey` to manage my routine tasks,
+so I can focus on unblocking creativity and delivering business value.
 
 ## Working Backwards
 
