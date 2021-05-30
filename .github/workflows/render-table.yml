@@ -11,13 +11,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - name: install dependencies
-        run: |
-          cd tools/rfc-render
-          npm install
       - name: render table
-        run: |
-          node tools/rfc-render/inject-table.js README.md
+        run: ./render-table.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create Pull Request
