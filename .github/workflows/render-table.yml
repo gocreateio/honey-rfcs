@@ -1,5 +1,5 @@
 name: Render RFC Table
-on: 
+on:
   issues:
     types: [opened,edited,deleted,transferred,assigned,unassigned,labeled,unlabeled]
 
@@ -10,9 +10,14 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: 16.x
+          node-version: 12.x
+      - name: install dependencies
+        run: |
+          cd tools/rfc-render
+          npm install
       - name: render table
-        run: ./render-table.sh
+        run: |
+          node tools/rfc-render/inject-table.js README.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create Pull Request
