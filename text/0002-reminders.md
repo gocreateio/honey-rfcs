@@ -27,10 +27,15 @@ User: Snooze reminder.
 
 ### PRESS RELEASE
 
-Today, the GoCreate community announced the Honey, AI-Powered Virtual Assistant for busy professionals,
-business owners or anyone who needs a personal virtual assistant.
+Today, the GoCreate community announced the Honey, AI-Powered Virtual Assistant  
+for young entrepreneurs who need productivity improvement with a personal virtual assistant.
 
-Just say 'honey' and ask her anything. She will listen, learn, and do her best to help with information or knowledge you need at any time.
+Sometimes, it is not easy to balance life and work in startup life, especially for young entrepreneurs.
+Having someone who can listen, assist, or advise is vital.
+Even if someone is not a human but a digital, AI-powered assistant.
+The assistant, who can automate your routine tasks, help you to unleash creativity and deliver business value.
+
+Just say `honey` and ask her anything. She will listen, learn, and do her best to help with information or knowledge you need at any time.
 
 Now, she knows how to conduct a secretary job for you.
 Just ask her, and she will set a reminder, reschedule, cancel, or snooze it.
@@ -100,7 +105,7 @@ Also, it is not clear if we use [Google Assistant] as one of the channels.
 
 ### What is the high-level implementation plan?
 
-Please look at the [project board] for a detailed plan and deliver this feature from prototype to GA; please look at the [project board].
+Please look at the [project board] for a detailed plan and deliver this feature from prototype to GA.
 
 ### Are there any open issues that need to be addressed later?
 
