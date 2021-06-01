@@ -4,9 +4,10 @@ rfc pr: [#1](https://github.com/gocreateio/honey-rfcs/pull/2)
 tracking issue: https://github.com/gocreateio/honey-rfcs/issues/2
 ---
 
-# Reminder
+# Reminders
 
-As a user, I want to request `honey` to manage my reminders for me.
+As an entrepreneur, I want `honey` to manage my routine tasks,
+so I can focus on unblocking creativity and delivering business value.
 
 ## Working Backwards
 
@@ -27,10 +28,15 @@ User: Snooze reminder.
 
 ### PRESS RELEASE
 
-Today, the GoCreate community announced the Honey, AI-Powered Virtual Assistant for busy professionals,
-business owners or anyone who needs a personal virtual assistant.
+Today, the GoCreate community announced the Honey, AI-Powered Virtual Assistant  
+for young entrepreneurs who need productivity improvement with a personal virtual assistant.
 
-Just say 'honey' and ask her anything. She will listen, learn, and do her best to help with information or knowledge you need at any time.
+Sometimes, it is not easy to balance life and work in startup life, especially for young entrepreneurs.
+Having someone who can listen, assist, or advise is vital.
+Even if someone is not a human but a digital, AI-powered assistant.
+The assistant, who can automate your routine tasks, help you to unleash creativity and deliver business value.
+
+Just say `honey` and ask her anything. She will listen, learn, and do her best to help with information or knowledge you need at any time.
 
 Now, she knows how to conduct a secretary job for you.
 Just ask her, and she will set a reminder, reschedule, cancel, or snooze it.
@@ -65,7 +71,7 @@ She will never miss or forgets anything from your reminders.
 
 ### Why are we doing this?
 
-Our first MVP, with a simple Reminder Agent, allows us to validate our hypotheses related to AI-Powered Virtual Assistants.
+With a simple Reminder Agent, our first MVP allows us to validate our hypotheses related to AI-Powered Virtual Assistants.
 
 ### Why should we _not_ do this?
 
@@ -73,50 +79,47 @@ The downside is infrastructure cost. At this moment, we cannot predict the infra
 
 ### What changes are required to enable this change?
 
-![architecture](../images/0001-reminder.drawio.svg)
-(WIP)
-> Briefly describe the high-level design approach for implementing this feature.
->
-> As appropriate, you can add an appendix with a more detailed design document.
->
-> This is a good place to reference a prototype or proof of concept, which is
-> highly recommended for most RFCs.
+![architecture](../images/0002-reminder.drawio.svg)
+
+As shown in the figure above, a customer interacts with the Telegram app as a Telegram user via Telegram Bot.
+Most of the heavy lifting is done by [Dialogflow] via [GCP]:
+
+- Natural Language Processing
+- Bot logic
+- Cloud Function
+- ML
+- Cloud Storage
+- Etc.
+  Also, Prebuild Agents are part of [Dialogflow], which is extendable or can combine multiple agents into a single agent (i.e. [mega agent])
 
 ### Is this a breaking change?
 
-> If the answer is no. Otherwise:
->
-> Describe what ways did you consider to deliver this without breaking users?
->
-> Make sure to include a `BREAKING CHANGE` clause under the CHANGELOG section with a description of the breaking
-> changes and the migration path.
+No
 
 ### What are the drawbacks of this solution?
 
-> Describe any problems/risks that can be introduced if we implement this RFC.
+Also, it is not clear if we use [Google Assistant] as one of the channels.
 
 ### What alternative solutions did you consider?
 
-> Briefly describe alternative approaches that you considered. If there are
-> hairy details, include them in an appendix.
+[Google Assistant] can replace the need for the Telegram app and can a solo channel with its own pros and cons.
 
 ### What is the high-level implementation plan?
 
-> Describe your plan on how to deliver this feature from prototyping to GA.
-> Especially think about how to "bake" it in the open and get constant feedback
-> from users before stabilizing the APIs.
->
-> If you have a project board with your implementation plan, this is a good
-> place to link to it.
+Please look at the [project board] for a detailed plan and deliver this feature from prototype to GA.
 
 ### Are there any open issues that need to be addressed later?
 
-> Describe any major open issues that this RFC did not take into account. Once
-> the RFC is approved, create GitHub issues for these issues and update this RFC
-> of the project board with these issue IDs.
+As it is our first MVP, we are in the stage of Unknown Unknowns.
 
 ## Appendix
 
-Feel free to add any number of appendices as you see fit. Appendices are expected to allow readers to dive deeper into
-certain sections if they like. For example, you can include an appendix that describes the detailed design of an
-algorithm and reference it from the FAQ.
+> Feel free to add any number of appendices as you see fit. Appendices are expected to allow readers to dive deeper into
+> certain sections if they like. For example, you can include an appendix that describes the detailed design of an
+> algorithm and reference it from the FAQ.
+
+[DialogFlow]: https://dialogflow.com/
+[GCP]: https://cloud.google.com/
+[Google Assistant]: https://assistant.google.com/
+[mega agent]: https://cloud.google.com/dialogflow/es/docs/agents-mega
+[project board]: https://github.com/gocreateio/honey/projects/1

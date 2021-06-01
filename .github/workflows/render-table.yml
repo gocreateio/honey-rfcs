@@ -1,5 +1,5 @@
 name: Render RFC Table
-on: 
+on:
   issues:
     types: [opened,edited,deleted,transferred,assigned,unassigned,labeled,unlabeled]
 
